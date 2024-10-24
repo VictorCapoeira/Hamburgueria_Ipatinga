@@ -165,3 +165,59 @@ body{
     overflow: visible;
     margin-bottom: 20rem;
 }
+.main_content_demo{
+    width: 70%;
+    margin: 3rem auto;
+}
+.main_content_demo_img{
+    text-align: center;    
+}
+.main_content_demo_img img {
+    width: 500px;
+    height: 300px;
+    border-radius: 50%;
+}
+.main_content_demo_title{
+    text-align: center;
+    margin:  2rem auto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 1px rgb(104, 102, 102);
+    border-bottom: 1px gainsboro solid;
+    width: 500px;
+}
+.main_content_demo_description, .main_content_demo_list_title{
+    font-size: 2rem;
+}
+.main_content_demo_actions{
+    width: 30%;
+    margin: 1em auto;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.btn_demo{
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 2rem 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.btn_demo:hover{
+    background-color: white;
+    color: black;
+}
+.btn_demo_carrinho{
+    opacity: .7;
+}
+.main_content_demo_price{
+    font-size: 3rem;
+}
+.main_content_demo_price::before{
+    content: "R$";
+    font-size: 3rem;
+}
